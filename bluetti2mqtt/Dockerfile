@@ -4,13 +4,12 @@ FROM $BUILD_FROM
 # Copy data for add-on
 COPY rootfs /
 
-RUN git clone https://github.com/DmytroPotapov/bluetti_mqtt.git
-
 # Install bluetti_mqtt
-RUN pip install pip install ./bluetti_mqtt \
+RUN pip install bluetti-mqtt-asyncio==0.16.0 \
 	&& apk add --update --no-cache \
 		bluez \
 	&& rm -rf /var/cache/apk/* /lib/apk/db/* \
 	&& chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
+
