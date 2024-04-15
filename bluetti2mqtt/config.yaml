@@ -10,7 +10,7 @@ arch:
   - armhf
   - armv7
   - i386
-image: ghcr.io/DmytroPotapov/{arch}-addon-bluetti2mqtt
+image: ghcr.io/dmytropotapov/{arch}-addon-bluetti2mqtt
 host_dbus: true
 usb: true
 map:
