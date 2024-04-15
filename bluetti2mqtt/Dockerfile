@@ -5,7 +5,7 @@ FROM $BUILD_FROM
 COPY rootfs /
 
 # Install bluetti_mqtt
-RUN pip install pip install git+https://github.com/DmytroPotapov/bluetti_mqtt.git@main \
+RUN pip install pip install "git+https://github.com/DmytroPotapov/bluetti_mqtt.git@main" \
 	&& apk add --update --no-cache \
 		bluez \
 	&& rm -rf /var/cache/apk/* /lib/apk/db/* \
