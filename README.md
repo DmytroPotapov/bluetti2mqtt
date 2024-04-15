@@ -11,7 +11,7 @@ or add it manually by navigating to `Settings` > `Add-ons` > `Add-on Store`
 
 Select the three dot menu in the upper right, choose `Repositories`, and add the following url:
 ```
-https://github.com/SSMCD/bluetti2mqtt
+https://github.com/DmytroPotapov/bluetti2mqtt
 ```
 
 Refresh the page (hard refresh may be required), scroll down to Bluetti2MQTT and install the add-on.
