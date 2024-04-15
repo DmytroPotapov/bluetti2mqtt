@@ -7,7 +7,7 @@ COPY rootfs /
 # Install bluetti_mqtt
 RUN pip install bluetti-mqtt==0.15.0 \
 	&& apk add --update --no-cache \
-		bluez=5.65-r0 \
+		bluez=5.72 \
 	&& rm -rf /var/cache/apk/* /lib/apk/db/* \
 	&& chmod a+x /run.sh
 
