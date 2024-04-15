@@ -5,7 +5,7 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-MQTT bridge between Bluetti and Home Assistant. (AC180P support mod)
+MQTT bridge between Bluetti and Home Assistant.
 
 This is a simple Home Assistant add-on for [bluetti_mqtt](https://github.com/warhammerkid/bluetti_mqtt).
 
