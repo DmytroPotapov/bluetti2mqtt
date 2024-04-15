@@ -6,7 +6,7 @@
 ![Supports i386 Architecture][i386-shield]
 
 
-** Fork of original repo, with support of Bluetti AC180 **
+*Fork of original repo, with support of Bluetti AC180*
 
 MQTT bridge between Bluetti and Home Assistant.
 
