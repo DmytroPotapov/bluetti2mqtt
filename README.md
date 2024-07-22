@@ -1,5 +1,8 @@
 # Bluetti2MQTT
 
+[This is fork of original repository, with added support for Bluetti AC180P, depends on modified bluetti_mqtt](https://github.com/DmytroPotapov/bluetti_mqtt)
+
+
 ![update-badge](https://img.shields.io/github/last-commit/SSMCD/bluetti2mqtt?label=Last%20Updated)
 
 ## Installation
